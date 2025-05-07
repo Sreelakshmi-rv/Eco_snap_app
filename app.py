@@ -10,7 +10,6 @@ Original file is located at
 import os
 os.listdir()
 
-!pip install streamlit
 
 from google.colab import files
 uploaded = files.upload()  # This will prompt you to upload your files
