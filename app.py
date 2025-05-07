@@ -18,6 +18,9 @@ from personal_dashboard import personal_dashboard
 from leaderboard import leaderboard
 from streak_tracker import streak_tracker
 
+# Set the page configuration at the very top
+st.set_page_config(page_title="EcoSnap App", layout="centered")
+
 # Main application layout
 def main():
     st.sidebar.title("Navigation")
