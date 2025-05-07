@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import os
-   os.listdir()
+os.listdir()
 
 !pip install streamlit
 
