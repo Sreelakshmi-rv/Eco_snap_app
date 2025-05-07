@@ -7,14 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1zfYsmUqtJfEzskTVZoNjK_Oca16PdMJ0
 """
 
-import os
-os.listdir()
-
-
-from google.colab import files
-uploaded = files.upload()  # This will prompt you to upload your files
-
-
 # Import necessary libraries
 import streamlit as st
 from ecosnap_camera import eco_snap_camera
